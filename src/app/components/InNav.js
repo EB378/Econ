@@ -5,15 +5,15 @@ export default function Nav() {
     <>
       <div className={styles.topnav}>
         <img src='/Gopher.png' alt="Netlify Logo" href="/home" className={styles.flogo} />
-        <Link href="/home">Front page</Link>
-        <Link href="/tracker">Work Tracker</Link>
-        <Link href="/crm">CRM</Link>
-        <Link href="/hr">HR</Link>
-        <Link href="/finances">Finances</Link>
-        <Link href="/marketing">Marketing</Link>
+        <Link href="/service/home">Front page</Link>
+        <Link href="/service/tracker">Work Tracker</Link>
+        <Link href="/service/crm">CRM</Link>
+        <Link href="/service/hr">HR</Link>
+        <Link href="/service/finances">Finances</Link>
+        <Link href="/service/marketing">Marketing</Link>
         <div className={styles.rightalignment}>
-          <Link href="/settings">Settings</Link>
-          <Link href="/help">Help</Link>
+          <Link href="/service/settings">Settings</Link>
+          <Link href="/service/help">Help</Link>
           <Link href="/">Log out</Link>
         </div>
       </div>

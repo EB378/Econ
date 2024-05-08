@@ -5,7 +5,7 @@ import RootLayout from "@/app/inlayout";
 export default () => (
     <>
     <RootLayout>
-        <p>finances</p>
+        <p>Finances</p>
     </RootLayout>
     </>
 );
