@@ -8,6 +8,7 @@
   .topnav a {
     float: left;
     color: #f2f2f2;
+    display: fixed;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,7 +27,7 @@
     color: white;
   }
 .flogo {
-    width: 3.5%;
+    width: 45px;
     display: fixed;
     justify-content: center;
     align-items: center;
