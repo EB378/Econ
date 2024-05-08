@@ -6,8 +6,8 @@ export default function Nav() {
       <div className={styles.topnav}>
         <img src='/Gopher.png' alt="Netlify Logo" href="#home" className={styles.flogo} />
         <Link href="/">Imperium</Link>
-        <Link href="/about">About</Link>
-        <Link href="/clients">Target Audience</Link>
+        <Link href="/about">Home</Link>
+        <Link href="/clients">CRM</Link>
         <Link href="/testamonials">Testamonials</Link>
         <Link href="/contact">Contact</Link>
         <div className={styles.rightalignment}>
