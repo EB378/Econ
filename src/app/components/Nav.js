@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <>
       <div className={styles.topnav}>
-        <img src='/Gopher.png' alt="Netlify Logo" href="#home" className={styles.flogo} />
+        <img src='/Gopher.png' alt="Netlify Logo" href="/home" className={styles.flogo} />
         <Link href="/">Imperium</Link>
         <Link href="/about">About</Link>
         <Link href="/clients">Target Audience</Link>

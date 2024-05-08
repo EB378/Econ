@@ -1,11 +1,11 @@
 import "@/app/globals.css";
-import RootLayout from "@/app/layout";
+import RootLayout from "@/app/inlayout";
 
 
 export default () => (
     <>
     <RootLayout>
-        <p>News</p>
+        <p>Marketing</p>
     </RootLayout>
     </>
 );
