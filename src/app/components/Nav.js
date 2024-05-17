@@ -8,7 +8,7 @@ export default function Nav() {
         <Link href="/">Imperium</Link>
         <Link href="/about">About</Link>
         <Link href="/market">Target Audience</Link>
-        <Link href="/testamonials">Testamonials</Link>
+        <Link href="/testamonials">Testimonials</Link>
         <Link href="/contact">Contact</Link>
         <div className={styles.rightalignment}>
           <Link href="/pricing">Plans</Link>

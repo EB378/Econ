@@ -11,6 +11,7 @@ export default function Nav() {
         <Link href="/service/hr">HR</Link>
         <Link href="/service/finances">Finances</Link>
         <Link href="/service/marketing">Marketing</Link>
+        <Link href="/service/consult">Consult</Link>
         <div className={styles.rightalignment}>
           <Link href="/service/settings">Settings</Link>
           <Link href="/service/help">Help</Link>

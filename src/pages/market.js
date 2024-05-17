@@ -7,7 +7,6 @@ import styles from "./pages.module.css"
 export default () => (
     <>
     <RootLayout>
-        <p>Target Market</p>
         <div className={styles.columns}>
             <img className={styles.img2} src="/aron.jpeg" alt="Aron"/>
             <img className={styles.img2} src="/abby.jpeg" alt="Abby"/>

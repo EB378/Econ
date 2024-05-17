@@ -4,3 +4,49 @@
 .img2 {
     width: 50%;
 }
+.testamonials {
+    text-align: justify;
+    background-color: white;
+}
+.testamonials1 {
+    text-align: center;
+    background-image: url("/tes_img.jpeg");
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+    color: white;
+}
+
+.bg1 {
+    background-image: url("/tes_img.jpeg");
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+    color: white;
+}
+
+.bg2 {
+    background-image: url("/tes_img2.jpeg");
+    left: 0;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+    color: black;
+}
+
+.textpadding {
+    padding-left: 25px;
+    padding-right: 50px;
+}
+
