@@ -13,23 +13,28 @@ export default () => (
         <div className={styles.container}>
             <form herf="/">
                 <div className={styles.forms}>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.."></input>
-                
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.."></input>
-
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                </select>
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-                
-                <input type="submit" value="Submit"></input>
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name.."></input>
+                    
+                    <label for="company">Company(Optional)</label>
+                    <input type="text" id="company" name="company" placeholder="Company name..."></input>
+                    <label for="country">Topic</label>
+                    <br/>
+                    <select className={styles.forms} id="country" name="country">
+                        <option value="australia">Details</option>
+                        <option value="usa">Technical issues</option>
+                        <option value="usa">'I don't know if this is a good fit for me...'</option>
+                        <option value="canada">Pricing</option>
+                        <option value="usa">Other</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="subject">Details</label>
+                    <br/>
+                    <textarea className={styles.fdescription} id="Details" name="Details" placeholder="How can we help you..."></textarea>
+                </div>
+                <div className={styles.forms}>
+                    <input type="submit" value="Submit"></input>
                 </div>
             </form>
         </div>
