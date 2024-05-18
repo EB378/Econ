@@ -2,8 +2,8 @@ import styles from './Box3.module.css'
 export default function Box1() {
   return (
     <div className={styles.oa3}>
-        <h2>Start-ups are destined to fail !!!</h2>
-        <h2 className={styles.colour}>They need the systems of the billion dollar companies to become successful.</h2>
+        <h2>Start-ups are designed for faliure.</h2>
+        <h2 className={styles.colour}>If they are expected to survive in this fast paced economy, they will need the systems of that makes successful companies successful.</h2>
     </div>
   )
 }
