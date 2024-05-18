@@ -1,0 +1,29 @@
+.oa1 {
+    background-image: url("/tes_img.jpeg");
+    left: 0;
+    padding-bottom: 10%;
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+    color: white;
+  }
+
+.p {
+    color: rgb(255, 208, 0);
+  }
+.testamonials1 {
+    text-align: center;
+    background-color: black;
+    left: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+    color: rgb(255, 208, 0);
+
+}
+
+.main12 {
+    top: 0;
+    padding-top: 4.95%;
+}

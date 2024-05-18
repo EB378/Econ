@@ -8,19 +8,6 @@
     text-align: justify;
     background-color: white;
 }
-.testamonials1 {
-    text-align: center;
-    background-image: url("/tes_img.jpeg");
-    left: 0;
-    top: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    background-size: 100% 100%;
-    overflow: auto;
-    color: rgb(255, 208, 0);
-
-}
 
 .bg1 {
     background-image: url("/tes_img.jpeg");
@@ -59,5 +46,7 @@
 }
 
 .smallerversion {
-    height: 275px;
+    max-height: 270px;
+    overflow: hidden;
+    vertical-align: middle;
 }

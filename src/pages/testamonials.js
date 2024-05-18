@@ -1,7 +1,7 @@
 import "@/app/globals.css";
 import RootLayout from "@/app/layout";
 import styles from "./pages.module.css"
-import Box1 from "@/app/components/Box1";
+import Box1 from "@/app/components/TBox1";
 
 export default () => (
     <>
@@ -9,7 +9,6 @@ export default () => (
         <div className={styles.smallerversion}>
             <Box1/>
         </div>
-        <h1 className={styles.testamonials1}>T E S T I M O N I A L S</h1>
         <div className={styles.testamonials}>
             <div className={styles.bg2}>
                 <div className={styles.textpadding}>
