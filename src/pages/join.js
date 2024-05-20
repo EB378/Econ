@@ -23,7 +23,7 @@ export default () => (
                         <option value="usa">*Choose a plan*</option>
                         <option value="usa">Basic Plan 54.30€/Month</option>
                         <option value="canada">Premium Plan 99.99€/Month</option>
-                        <option value="usa">Ultra Plan 199€/Month</option>
+                        <option value="usa">Ultra Plan 199.99€/Month</option>
                     </select>
                 </div>
                 <div className={styles.forms}>
