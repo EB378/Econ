@@ -13,7 +13,7 @@ export default function Nav() {
         <div className={styles.rightalignment}>
           <Link href="/pricing">Plans</Link>
           <Link href="/join">Join</Link>
-          <Link href="/service/home">Log In</Link>
+          <Link href="/login">Log In</Link>
         </div>
       </div>
     </>  

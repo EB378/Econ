@@ -21,9 +21,8 @@ export default () => (
                     <label for="country">Topic</label>
                     <br/>
                     <select className={styles.forms} id="country" name="country">
-                        <option value="australia">Details</option>
-                        <option value="usa">Technical issues</option>
                         <option value="usa">'I don't know if this is a good fit for me...'</option>
+                        <option value="usa">Technical issues</option>
                         <option value="canada">Pricing</option>
                         <option value="usa">Other</option>
                     </select>
